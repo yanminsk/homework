@@ -22,21 +22,23 @@ class Car:
         return info
 
 
-my_car = Car("Red", 5, True)
-my_car1 = Car("Blue", 3, False)
+my_car1 = Car("Red", 5, True)
+my_car2 = Car("Blue", 3, False)
 
-# print(my_car1)
+my_car=[my_car1]+[my_car2]
+
+# print(car)
 
 
 class Taxi:
     def __init__(self, cars):
-        self.cars = Car()
+        self.cars = my_car
 
     def find_car(self, count_passengers:int, is_baby:bool):
-        if count_passengers<self.cars.count_passenger_seats:
-            return Car
+        if count_passengers<self.cars.
+            pass
 
-        return 5
+        return self
 
 mmm=Taxi(my_car)
 
