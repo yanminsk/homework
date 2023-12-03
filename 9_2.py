@@ -23,7 +23,4 @@ for line in file:
          my_new_dict[four_key]=my_list[3]
          rez_list.append(my_new_dict)
          print(my_new_dict)
-         print(rez_list)
-         # print(rez_list)
-         # key_number += 1
 print(rez_list)
